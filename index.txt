@@ -1,0 +1,42 @@
+Microsoft Windows [Version 6.3.9600]
+(c) Корпорация Майкрософт (Microsoft Corporation), 2013. Все права защищены.
+
+C:\Users\cimb_wd35>cd/
+
+C:\>cd test
+
+C:\test>git init
+Initialized empty Git repository in C:/test/.git/
+
+C:\test>git clone https://github.com/shorten/js.git
+Cloning into 'js'...
+remote: Counting objects: 166, done.
+remote: Compressing objects: 100% (72/72), done.
+remote: Total 166 (delta 74), reused 166 (delta 74), pack-reused 0
+Receiving objects: 100% (166/166), 81.57 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (74/74), done.
+
+C:\test>cd/
+
+C:\>cd rep
+
+C:\rep>git status
+fatal: Not a git repository (or any of the parent directories): .git \\при отсутствии файлов в папке 
+
+C:\rep>git init
+Initialized empty Git repository in C:/rep/.git/
+
+C:\rep>git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.txt
+        main.html
+\\ показал файлы в папке
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\rep>
