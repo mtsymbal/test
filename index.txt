@@ -36,7 +36,24 @@ Untracked files:
 
         index.txt
         main.html
-\\ показал файлы в папке
+\\ показал файлы в папке, которые не отслеживаются git
 nothing added to commit but untracked files present (use "git add" to track)
 
-C:\rep>
+C:\rep>git add index.txt
+
+C:\rep>git status
+On branch master \\главная ветка по умолчанию
+
+Initial commit
+
+Changes to be commited:
+(use "git rm--cached <file>..." to unstage)
+	new file: index.txt
+
+Untracked files:
+(use "git add <file>..." to include in what will be commited)
+	main.html
+
+C:\rep>git commit -m "Commit message" 
+C:\rep>git status
+	
